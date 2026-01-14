@@ -1,6 +1,7 @@
 # Sistem Manajemen Penjualan Tiket Event
 
-```event = {
+```
+event = {
     "Konser Musik": {"harga": 150000, "stok": 100},
     "Seminar IT": {"harga": 50000, "stok": 50},
     "Workshop Coding": {"harga": 75000, "stok": 30}
