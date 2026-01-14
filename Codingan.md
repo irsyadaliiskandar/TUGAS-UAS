@@ -1,6 +1,6 @@
 # Sistem Manajemen Penjualan Tiket Event
 
-event = {
+```event = {
     "Konser Musik": {"harga": 150000, "stok": 100},
     "Seminar IT": {"harga": 50000, "stok": 50},
     "Workshop Coding": {"harga": 75000, "stok": 30}
@@ -8,12 +8,12 @@ event = {
 
 penjualan = []
 
-def tampilkan_event():
+ def tampilkan_event():
     print("\nDaftar Event:")
     for nama, data in event.items():
         print(f"- {nama} | Harga: Rp{data['harga']} | Stok: {data['stok']}")
 
-def beli_tiket():
+ def beli_tiket():
     nama_pembeli = input("Nama Pembeli: ")
     nama_event = input("Nama Event: ")
 
@@ -65,3 +65,4 @@ while True:
         break
     else:
         print("Pilihan tidak valid.")
+```
