@@ -1,20 +1,27 @@
 # Sistem Manajemen Penjualan Tiket Event
 
 ```
+# Sistem Manajemen Penjualan Tiket Event
+
 event = {
     "Konser Musik": {"harga": 150000, "stok": 100},
     "Seminar IT": {"harga": 50000, "stok": 50},
-    "Workshop Coding": {"harga": 75000, "stok": 30}
+    "Workshop Coding": {"harga": 75000, "stok": 30},
+    "Festival Musik": {"harga": 200000, "stok": 20},
+    "Seminar Bisnis": {"harga": 60000, "stok": 40},
+    "Workshop Desain Grafis": {"harga": 80000, "stok": 25},
+    "Festival Kuliner": {"harga": 180000, "stok": 15},
+
 }
 
 penjualan = []
 
- def tampilkan_event():
+def tampilkan_event():
     print("\nDaftar Event:")
     for nama, data in event.items():
         print(f"- {nama} | Harga: Rp{data['harga']} | Stok: {data['stok']}")
 
- def beli_tiket():
+def beli_tiket():
     nama_pembeli = input("Nama Pembeli: ")
     nama_event = input("Nama Event: ")
 
