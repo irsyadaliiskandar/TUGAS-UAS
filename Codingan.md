@@ -1,7 +1,6 @@
 # Sistem Manajemen Penjualan Tiket Event
 
 ```
-# Sistem Manajemen Penjualan Tiket Event
 event = {
     "E01": {"nama": "Konser Musik", "harga": 150000, "stok": 100},
     "E02": {"nama": "Seminar IT", "harga": 50000, "stok": 50},
